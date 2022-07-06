@@ -15,7 +15,7 @@ Pasos para ejecutar el proyecto
 * DB_PORT=3306
 
 4. Ejecutar la app  `npm run start:dev`
-
+5. Los scripts para crear la base de datos y las tablas se encuentran dentro de src/assets
 
 El proyecto se ejecuta en el puerto 3000 por defecto, si la app se ejecuto correctamente vera estos mensajes en consola:
 
