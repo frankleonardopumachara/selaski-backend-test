@@ -24,6 +24,7 @@ app.get('/', (req: Request, res: Response) => {
     res.status(200).send('Selaski!')
 })
 
-app.listen(3000, () => {
-    console.log('server running: http://localhost:3000')
+const port: string = process.env.PORT
+app.listen(port, () => {
+    console.log(`server running: http://localhost:${port}`)
 })
